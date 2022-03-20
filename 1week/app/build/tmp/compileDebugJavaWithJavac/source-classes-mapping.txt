@@ -1,0 +1,12 @@
+com/example/flo/BuildConfig.java
+ com.example.flo.BuildConfig
+com/example/flo/databinding/FragmentSearchBinding.java
+ com.example.flo.databinding.FragmentSearchBinding
+com/example/flo/databinding/FragmentHomeBinding.java
+ com.example.flo.databinding.FragmentHomeBinding
+com/example/flo/databinding/FragmentLockerBinding.java
+ com.example.flo.databinding.FragmentLockerBinding
+com/example/flo/databinding/ActivityMainBinding.java
+ com.example.flo.databinding.ActivityMainBinding
+com/example/flo/databinding/FragmentLookBinding.java
+ com.example.flo.databinding.FragmentLookBinding
