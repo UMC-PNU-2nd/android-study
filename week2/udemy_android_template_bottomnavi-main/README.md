@@ -1,2 +1,2 @@
-# udemy_android_template_bottomnavi
-안드로이드 플로 클론 1주차에 필요한 템플릿입니다.
+# Week2 & Week3
+Week3까지 클론코딩
