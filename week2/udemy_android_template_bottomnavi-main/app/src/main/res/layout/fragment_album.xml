@@ -101,4 +101,27 @@
         android:src="@drawable/img_album_lp"
         app:layout_constraintStart_toStartOf="@id/album_album_img_iv"
         app:layout_constraintBottom_toBottomOf="@id/album_album_img_iv"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/album_content_tb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorFullWidth="false"
+        app:tabSelectedTextColor="#3f3fff"
+        app:tabIndicatorColor="#3f3fff"
+        app:tabRippleColor="#00ff0000"
+        app:layout_constraintEnd_toEndOf="@id/album_album_img_iv"
+        app:layout_constraintStart_toStartOf="@id/album_album_img_iv"
+        app:layout_constraintTop_toBottomOf="@id/album_album_img_iv"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/album_content_vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/album_content_tb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
