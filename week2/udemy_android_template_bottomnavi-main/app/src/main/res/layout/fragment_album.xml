@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/album_back_arrow_iv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/btn_arrow_black"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="15dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/album_like_iv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_my_like_off"
+        android:layout_marginEnd="15dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@id/album_more_iv"
+        app:layout_constraintTop_toTopOf="@id/album_more_iv"
+        app:layout_constraintBottom_toBottomOf="@id/album_more_iv"/>
+
+    <ImageView
+        android:id="@+id/album_more_iv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/btn_player_more"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="15dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/album_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IU 5th Album 'LILAC'"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/album_like_iv" />
+
+    <TextView
+        android:id="@+id/album_singer_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IU"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/album_title_tv" />
+
+    <TextView
+        android:id="@+id/album_date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2021.03.25|정규|댄스|팝"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/album_singer_tv" />
+
+    <ImageView
+        android:id="@+id/album_album_img_iv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img_album_exp2"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/album_date_tv" />
+
+    <ImageView
+        android:id="@+id/album_player_iv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/widget_black_play"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toEndOf="@id/album_album_img_iv"
+        app:layout_constraintBottom_toBottomOf="@id/album_album_img_iv"/>
+
+    <ImageView
+        android:id="@+id/album_lp_iv"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="158dp"
+        android:src="@drawable/img_album_lp"
+        app:layout_constraintStart_toStartOf="@id/album_album_img_iv"
+        app:layout_constraintBottom_toBottomOf="@id/album_album_img_iv"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
