@@ -5,14 +5,18 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1465" />
         <entry key="app/src/main/res/drawable/btm_color_selector.xml" value="0.1465" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21944444444444444" />
-        <entry key="app/src/main/res/layout/activity_song.xml" value="0.21944444444444444" />
-        <entry key="app/src/main/res/layout/fragment_album.xml" value="0.221875" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.21756894790602654" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18518518518518517" />
+        <entry key="app/src/main/res/layout/activity_song.xml" value="0.18518518518518517" />
+        <entry key="app/src/main/res/layout/fragment_album.xml" value="0.1638888888888889" />
+        <entry key="app/src/main/res/layout/fragment_banner.xml" value="0.20277777777777778" />
+        <entry key="app/src/main/res/layout/fragment_detail.xml" value="0.28072916666666664" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1962962962962963" />
         <entry key="app/src/main/res/layout/fragment_locker.xml" value="0.221875" />
         <entry key="app/src/main/res/layout/fragment_look.xml" value="0.221875" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.221875" />
-        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1265625" />
+        <entry key="app/src/main/res/layout/fragment_song.xml" value="0.2101851851851852" />
+        <entry key="app/src/main/res/layout/fragment_video.xml" value="0.28072916666666664" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.34014300306435136" />
       </map>
     </option>
   </component>

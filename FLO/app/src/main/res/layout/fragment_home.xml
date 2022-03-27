@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    tools:context=".home.HomeFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -348,16 +349,26 @@
             </LinearLayout>
         </HorizontalScrollView>
 
-        <ImageView
+<!--        <ImageView-->
+<!--            android:id="@+id/home_banner_vp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:src="@drawable/img_home_viewpager_exp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/home_today_music_oversea_hs"/>-->
+
+        <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/home_banner_vp"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/img_home_viewpager_exp"
+            android:layout_height="100dp"
             android:layout_marginTop="15dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/home_today_music_oversea_hs"/>
+            app:layout_constraintTop_toBottomOf="@id/home_today_music_oversea_hs" />
+
 
         <TextView
             android:id="@+id/home_daily_music_title_tv"
