@@ -10,9 +10,24 @@
         android:id="@+id/main_frm"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-
         app:layout_constraintBottom_toTopOf="@id/main_player_cl"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/main_progress_sb"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:progress="0"
+        android:thumb="@color/transparent"
+        android:max="100000"
+        app:layout_constraintBottom_toTopOf="@id/main_player_cl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -22,6 +37,8 @@
         app:layout_constraintBottom_toTopOf="@id/main_bnv"
         android:paddingVertical="5dp"
         android:background="#F9F9F9">
+
+
 
         <LinearLayout
             android:layout_width="wrap_content"
