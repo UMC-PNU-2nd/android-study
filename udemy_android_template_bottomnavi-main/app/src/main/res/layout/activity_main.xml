@@ -10,9 +10,24 @@
         android:id="@+id/main_frm"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-
         app:layout_constraintBottom_toTopOf="@id/main_player_cl"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/main_progress_sb"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:progress="0"
+        android:thumb="@color/transparent"
+        android:max="100000"
+        app:layout_constraintBottom_toTopOf="@id/main_player_cl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -22,6 +37,8 @@
         app:layout_constraintBottom_toTopOf="@id/main_bnv"
         android:paddingVertical="5dp"
         android:background="#F9F9F9">
+
+
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -33,18 +50,20 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
+                android:id="@+id/main_miniplayer_title_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="13sp"
-                android:text="제목"
+                android:text="라일락"
                 android:textColor="@color/black" />
 
             <TextView
+                android:id="@+id/main_miniplayer_singer_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="12sp"
 
-                android:text="가수"/>
+                android:text="IU"/>
 
         </LinearLayout>
 

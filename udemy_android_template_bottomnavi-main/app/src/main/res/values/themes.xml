@@ -20,4 +20,9 @@
         <item name="android:windowTranslucentStatus">true</item>
 
     </style>
+    <style name="splashTheme" parent="Theme.AppCompat.NoActionBar" >
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+    </style>
+
 </resources>
