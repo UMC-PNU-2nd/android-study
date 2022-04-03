@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="album_like_iv" type="id" />
+    <item name="song_all_select_tv" type="id" />
+    <item name="song_all_listen_tv" type="id" />
+    <item name="song_all_listen_iv" type="id" />
+    <item name="song_lalac_layout" type="id" />
+    <item name="song_more_04_iv" type="id" />
+</resources>
