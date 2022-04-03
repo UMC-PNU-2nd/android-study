@@ -125,6 +125,7 @@
         app:layout_constraintTop_toBottomOf="@+id/song_music_lyrics_01_iv" />
 
 
+
     <LinearLayout
         android:id="@+id/song_like_iv_layout"
         android:layout_width="wrap_content"
@@ -163,27 +164,47 @@
 
     </LinearLayout>
 
-    <View
-        android:id="@+id/song_progressbar_backgroud_view"
+    <SeekBar
+        android:id="@+id/song_progress_sb"
         android:layout_width="match_parent"
-        android:layout_height="2dp"
+        android:layout_height="10dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="15dp"
         android:layout_marginEnd="20dp"
-        android:background="@color/gray_color"
+        android:layout_marginBottom="20dp"
+        android:background="@null"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:progress="0"
+        android:progressBackgroundTint="@color/white"
+        android:progressTint="@color/select_color"
+        android:thumb="@color/transparent"
+        android:max="100000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/song_like_iv_layout" />
+        app:layout_constraintTop_toBottomOf="@+id/song_like_iv_layout"  />
 
-    <View
-        android:id="@+id/song_progressbar_view"
-        android:layout_width="50dp"
-        android:layout_height="2dp"
-        android:layout_marginStart="20dp"
-        android:background="@color/select_color"
-        app:layout_constraintBottom_toBottomOf="@+id/song_progressbar_backgroud_view"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/song_progressbar_backgroud_view" />
+
+<!--    <View-->
+<!--        android:id="@+id/song_progressbar_backgroud_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:background="@color/gray_color"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/song_like_iv_layout" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/song_progressbar_view"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:background="@color/select_color"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/song_progressbar_backgroud_view"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/song_progressbar_backgroud_view" />-->
 
     <TextView
         android:id="@+id/song_start_time_tv"
