@@ -115,38 +115,20 @@
         app:tabSelectedTextColor="#3f3fff"
         app:tabIndicatorColor="#3f3fff"
         app:tabRippleColor="#00ff0000"
-        app:layout_constraintStart_toStartOf="@id/album_album_iv"
-        app:layout_constraintEnd_toEndOf="@id/album_album_iv"
-        app:layout_constraintTop_toBottomOf="@id/album_album_iv" />
+        app:layout_constraintEnd_toEndOf="@+id/album_album_iv"
+        app:layout_constraintStart_toStartOf="@+id/album_album_iv"
+        app:layout_constraintTop_toBottomOf="@+id/album_album_iv"/>
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/album_content_vp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintTop_toBottomOf="@id/album_content_tb"
+        app:layout_constraintTop_toBottomOf="@+id/album_content_tb"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 
-
-    <!--3주차 탭레이아웃-->
-
-    <!--    <com.google.android.material.tabs.TabLayout-->
-    <!--        android:id="@+id/album_tabLayout_tl"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        app:tabMaxWidth="0dp"-->
-    <!--        app:tabGravity="fill"-->
-    <!--        app:tabMode="fixed"-->
-    <!--        app:tabIndicatorFullWidth="false"-->
-    <!--        app:tabRippleColor="@android:color/transparent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/album_album_iv"-->
-    <!--        app:tabIndicatorColor="@color/select_color"-->
-    <!--        app:tabIndicatorGravity="bottom"-->
-    <!--        app:tabSelectedTextColor="@color/select_color" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
